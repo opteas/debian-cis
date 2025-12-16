@@ -1,16 +1,18 @@
-```markdown
-# How to Create a New Release
+Here’s your cleaned-up, production-ready Markdown version with **v1.0-5** included and formatted nicely:
 
-Follow these steps to create a new release using Git and GitHub Actions:
+```markdown
+# 🚀 How to Create a New Release
+
+Follow these steps to create a new release using **Git** and **GitHub Actions**:
 
 ---
 
-## 1. Update the Changelog
+## ✅ 1. Update the Changelog
 Edit the file `debian/changelog` and add a new entry for the version you want to release:
 
 ```
 
-cis-hardening (1.2.3) unstable; urgency=medium
+cis-hardening (1.0-5) unstable; urgency=medium
 
 *   Description of changes
 
@@ -20,15 +22,15 @@ cis-hardening (1.2.3) unstable; urgency=medium
 
 ---
 
-## 2. Commit the Changes
+## ✅ 2. Commit the Changes
 ```bash
 git add debian/changelog
-git commit -m "Update changelog for version 1.2.3"
+git commit -m "Update changelog for version 1.0-5"
 ````
 
 ***
 
-## 3. Push to Master
+## ✅ 3. Push to Master
 
 ```bash
 git push origin master
@@ -36,24 +38,25 @@ git push origin master
 
 ***
 
-## 4. Create and Push a Tag
+## ✅ 4. Create and Push a Tag
 
 Use semantic versioning for the tag (e.g., `v1.0-5`):
 
 ```bash
 git tag v1.0-5
-git push origin v1.0.5
+git push origin v1.0-5
 ```
 
 ***
 
-## 5. GitHub Actions Will Handle the Release
+## ✅ 5. GitHub Actions Will Handle the Release
 
 Once the tag is pushed:
 
-*   The **Tagged-release.yml** workflow will build the `.deb` package.
-*   Generate the changelog from `debian/changelog`.
-*   Create a GitHub Release with the changelog as the description.
-*   Upload the `.deb` file as a release asset.
+*   The **Tagged-release.yml** workflow will:
+    *   Build the `.deb` package.
+    *   Generate the changelog from `debian/changelog`.
+    *   Create a GitHub Release with the changelog as the description.
+    *   Upload the `.deb` file as a release asset.
 
 ***
