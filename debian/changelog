@@ -1,5 +1,5 @@
 cis-hardening (1.0-0) unstable; urgency=medium
-  * Just forked repo for maintaing stable version and customization for our use case.
+  * Just forked repository for maintaing stable version and customization CIS hardening for our use case.
 
  -- Marius Thomassen <marius.thomassen@opt-e.no>  Thursday, 16 December 2025 13:12 +0100
 
