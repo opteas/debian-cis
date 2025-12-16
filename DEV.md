@@ -1,5 +1,3 @@
-Here’s your cleaned-up, production-ready Markdown version with **v1.0-5** included and formatted nicely:
-
 ```markdown
 # 🚀 How to Create a New Release
 
