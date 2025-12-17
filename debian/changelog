@@ -1,4 +1,4 @@
-cis-hardening (4.1-7) unstable; urgency=medium
+cis-hardening (4.1-8) unstable; urgency=medium
 
   * Just forked repo for maintaing stable version and customization for our use case on IPC.
 
