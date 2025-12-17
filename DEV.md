@@ -18,8 +18,6 @@ cis-hardening (1.0-5) unstable; urgency=medium
 
 ````
 
----
-
 ## ✅ 2. Commit the Changes
 ```bash
 git add debian/changelog
